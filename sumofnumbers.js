@@ -27,5 +27,5 @@ function sumRecursion(list){
 }
 
 function sumTheSimpleWay(list){
-  return _.reduce([1, 2, 3], function(memo, num){ return memo + num; }, 0);
+  return _.reduce(list, function(memo, num){ return memo + num; }, 0);
 }
